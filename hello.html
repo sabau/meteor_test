@@ -6,6 +6,7 @@
 <h1>Leaderboard!</h1>
 
 {{> leaderboard}}
+{{> addPlayerForm}}
 </body>
 
 <template name="leaderboard">
@@ -13,7 +14,7 @@
     <p>You've pressed the button {{counter}} times.</p>
     {{#if showSelectedPlayer}}
         <h1>{{showSelectedPlayer.name}}</h1>
-    {{/if}}}
+    {{/if}}
     <ul>
         {{#each player}}
             <li class="player {{selectedClass}}">
