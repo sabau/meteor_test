@@ -7,3 +7,8 @@
 meteor-platform
 autopublish
 insecure
+orionjs:core
+twbs:bootstrap
+fortawesome:fontawesome
+orionjs:bootstrap
+iron:router
